@@ -65,8 +65,8 @@ def styles():
         ),
         "code": ParagraphStyle(
             "GuideCode", parent=base["Code"], fontName="Courier", fontSize=7.4,
-            leading=10, textColor=colors.HexColor("#e2e8f0"),
-            backColor=colors.HexColor("#1e293b"), borderPadding=7,
+            leading=10, textColor=NAVY,
+            backColor=colors.HexColor("#f1f5f9"), borderPadding=7,
             leftIndent=5, rightIndent=5, spaceBefore=4, spaceAfter=7,
         ),
         "callout": ParagraphStyle(
