@@ -106,6 +106,19 @@ Set-Location frontend
 npm run build
 ```
 
+## Learning guide
+
+For a detailed explanation of the architecture, machine-learning pipeline,
+backend and frontend code paths, API examples, Docker workflow,
+troubleshooting, and guided exercises, see
+[EduPredict_Project_Learning_Guide.pdf](EduPredict_Project_Learning_Guide.pdf).
+
+The PDF can be regenerated after updating the guide source:
+
+```powershell
+python scripts\create_project_guide.py
+```
+
 ## Repository structure
 
 ```text
